@@ -52,11 +52,11 @@ def main():
     st.sidebar.image("icc.png", use_column_width=True)
     # About us page
     st.markdown("## About Us")
-    st.write("This is the about us page content.")
+    st.write("("Welcome to our ICC RANKING which owned by Rayyan Amaan Hassan under  supervision of SirGuffran This Python script defines a `Team` class to simulate match results and calculate points for cricket teams. It initializes teams with names and points, simulates match results, updates points based on wins and losses, sorts teams by points, and displays the ICC ranking table. The script showcases object-oriented programming, data manipulation, and output formatting techniques in Python for sports ranking systems.")
 
     # Contact us page
     st.markdown("## Contact Us")
-    st.write("This is the contact us page content.")
+    st.write("For more info contact onthis email ahmedrayyan9713@gamil.com")
 
 if __name__ == "__main__":
     main()
