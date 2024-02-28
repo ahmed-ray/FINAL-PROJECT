@@ -48,7 +48,8 @@ def main():
     st.header("ICC Ranking Table:")
     st.table({"Team": [f"{i}. {team.name}" for i, team in enumerate(teams, start=1)],
               "Points": [team.points for team in teams]})
-
+# Company logo
+    st.sidebar.image("icc.png", use_column_width=True)
     # About us page
     st.markdown("## About Us")
     st.write("This is the about us page content.")
