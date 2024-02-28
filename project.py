@@ -52,7 +52,7 @@ def main():
     st.sidebar.image("icc.png", use_column_width=True)
     # About us page
     st.markdown("## About Us")
-    st.write("("welcome to our website we give info about ICC TEAM RANKING")
+    st.write("welcome to our website we give info about ICC TEAM RANKING")
 
     # Contact us page
     st.markdown("## Contact Us")
